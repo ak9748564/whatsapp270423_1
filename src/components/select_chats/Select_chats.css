@@ -1,0 +1,7 @@
+.select_chats::-webkit-scrollbar{
+    width: 4px;
+    background: white;
+}
+.settings_chats::-webkit-scrollbar-thumb{
+    background: #CED0D1;
+}

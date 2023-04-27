@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chats_scroll{
+    height: calc(100vh - 199px);
+}
+.chats_scroll::-webkit-scrollbar,
+.new_chats_scroll::-webkit-scrollbar,
+.communities::-webkit-scrollbar{
+    width: 4px;
+    background: white;
+}
+.chats_scroll::-webkit-scrollbar-thumb,
+.new_chats_scroll::-webkit-scrollbar-thumb,
+.communities::-webkit-scrollbar-thumb{
+    background: #CED0D1;
+}
+/* .new_chats_scroll{
+    height: calc(100vh - 158px);
+} */
+
+.communities{
+    height: calc(100vh - 95px);
+}
+
+.status{
+    height: calc(100vh - 103px);
+}
+.status::-webkit-scrollbar{
+    width: 6px;
+    background: #1E262C;
+}
+.status::-webkit-scrollbar-thumb{
+    background: #3B4247;
+}
+.unread_chats_container{
+    height: calc(100vh - 110px);
+}
+.y_scroll::-webkit-scrollbar{
+    display: none;
+}
+.y_scroll{
+    height: calc(100vh - 60px);
+}
+
+.chats_container_notified{
+    height: calc(100vh - 110px);
+}
+
+.starred_messages{
+    height: calc(100vh - 60px);
+}
+.starred_messages::-webkit-scrollbar{
+    width: 6px;
+    background: #f0f2f5;
+}
+
+.chat_section{
+    height: calc(100vh - 124px);
+}
+.chat_section::-webkit-scrollbar{
+    display: none;
+}
+
+.settings_scroll_container{
+    height: calc(100vh - 108px);
+}
+.settings_scroll_container::-webkit-scrollbar{
+    width: 6px;
+    background: white;
+}
+.settings_scroll_container::-webkit-scrollbar-thumb{
+    background: #CED0D1;
+}
+
+.select_chats_scroll{
+    height: calc(100vh - 114px);
+}
+
+.profile_scroll::-webkit-scrollbar{
+    width: 6px;
+    background: #f0f2f5;
+}
+.profile_scroll::-webkit-scrollbar-thumb{
+    background: #CED0D1;
+}

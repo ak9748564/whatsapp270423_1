@@ -1,0 +1,7 @@
+.archived_filled::-webkit-scrollbar{
+    width: 4px;
+    background: white;
+}
+.archived_filled::-webkit-scrollbar-thumb{
+    background: #CED0D1;
+}

@@ -1,0 +1,7 @@
+.scroll_container::-webkit-scrollbar{
+    width: 6px;
+    background: white;
+}
+.scroll_container::-webkit-scrollbar-thumb{
+    background: #CED0D1;
+}
